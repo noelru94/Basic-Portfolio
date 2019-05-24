@@ -2,27 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- Main Style Sheet -->
     <link rel="stylesheet" href="../assets/css/style.css">
+    <!-- Portfolio Style Sheet-->
+    <link rel="stylesheet" href="../assets/css/portfolio.css">
     <title>Portfolio</title>
 </head>
 <body>
+    <!-- Header -->
     <header>
+        <!-- Nav-Bar Container-->
         <div id="nav-bar">
         <h1>Noel Vega</h1>
          <nav>
              <ul>
+                <!-- Navigation Links -->
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="Portfolio.html">Portfolio</a></li>
-                <li><a href="About Me">About Me</a></li>
+                <li><a href="../index.html">About Me</a></li>
              </ul>
          </nav>
         </div>
     </header>
-
+    <!-- End of Header -->
+    <!-- Main content area/Gallery-->
     <section id="main-content">
         <h2>Portfolio</h2>
         <hr>
+        <!-- Start of gallery/wrapper-->
+        <div class="gallery">
+            <!-- Project 1 of 4 -->
+            <div class="project">
+                <div class="project-title">
+                    <h3>Music app</h3>
+                </div>
+                <img src="./images/headphones.jpg" alt="wired headphones" width="250" height="150">
+            </div>
+            <!-- Project 2 of 4 -->
+            <div class="project">
+                <div class="project-title">
+                    <h3>Uber is taking Flight</h3>
+                </div>
+                    <img src="./images/airplane.jpg" alt="small airplane" width="250" height="150">
+            </div>
+            <!-- Project 3 of 4 -->
+            <div class="project">
+                <div class="project-title">
+                    <h3>Connecting People</h3>
+                </div>
+                    <img src="./images/connectingPeople.jpg" alt="guy holding ipad" width="250" height="150">
+            </div>
+            <!-- Project 4 of 4-->
+            <div class="project">
+                <div class="project-title">
+                    <h3>Robotics Company</h3>
+                </div>
+                    <img src="./images/electronic.jpg" alt="electronics" width="250" height="150">
+            </div>
+        </div>
+        <!-- End of gallery/wrapper -->
     </section>
+        <!-- Footer/Copyright -->
+        <footer>
+            <p>Copyright &copy;</p>
+        </footer> 
+
     
 </body>
 </html>
