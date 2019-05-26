@@ -94,7 +94,7 @@ hr {
     margin: 20px 0;
 }
 /*-- About Me Image of Myself --*/
-img {
+.me {
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
