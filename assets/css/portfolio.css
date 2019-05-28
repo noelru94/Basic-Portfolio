@@ -27,5 +27,14 @@
     flex-wrap: wrap;
 } 
 
+section::after{
+    display: block;
+    content: ""
+}
+ 
+div.space {
+    margin: 200px;
+}
+
 
 
