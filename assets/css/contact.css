@@ -15,3 +15,7 @@ textarea {
     color: white;
     background: #4aaaa5;
 }
+
+.submit:hover{
+    cursor: pointer;
+}
